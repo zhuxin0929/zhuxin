@@ -1,0 +1,256 @@
+.show {
+    font-size: 0.16rem;
+    font-family: '微软雅黑';
+    background-color: #fff;
+}
+
+.show .topTitle {
+    height: 0.70rem;
+    display: flex;
+    justify-content: flex-start;;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+    top: -0.01rem;
+}
+.show .topTitle p {
+    margin-left: 0.4rem;
+    font-size: 0.25rem;
+
+}
+.show .topTitle h3 {
+    font-size: 0.30rem;
+    /*font-weight: bold;*/
+    margin-left: 1.5rem;
+}
+
+.wrapper {
+    /*margin-top: 5px;*/
+}
+.show .wrapper nav {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    background-color: #fff;
+    position: fixed;
+    top: 0.6rem;
+    z-index: 3;
+}
+.show .wrapper nav section {
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 0.2rem;
+    padding-bottom:0.2rem;
+}
+.show .wrapper nav section.active {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.show .content {
+    width: 5.4rem;
+    overflow: hidden;
+    margin-top: 0.05rem;
+    overflow: hidden;
+    position: relative;
+    top: 1.18rem;
+}
+/*.show .content .kong {
+    width: 100%;
+    height: 1rem;
+    background-color: #CECDD3;
+}*/
+.show .content ul {
+    list-style: none;
+    /*overflow: hidden;*/
+    width: 9999px;
+    transition: all .5s ease-in-out;
+}
+.show .content > ul > li {
+    width: 5.4rem;
+    float: left;
+}
+/*.show .content ul li:nth-child(1) {
+    display: none;
+}
+.show .content ul li:nth-child(2) {
+    width: 5.4rem;
+    float: left;
+}*/
+.show .content li p {
+    text-align: center;
+    font-size: 0.2rem;
+    padding: 0.05rem 0;
+}
+
+
+.qbyc {
+    width: 100%;
+    position: relative;
+    top: 0;
+
+}
+.qbyc .yanImg img{
+    width: 100%;
+}
+
+.qbyc h3 {
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+.qbyc .jjsy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*float: left;*/
+}
+#s1 {
+    width: 1.5rem;
+    height: 2rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+}
+.qbyc .top section {
+    display: inline-block;
+    margin-left: 0.2rem;
+}
+.qbyc .top section > p {
+    font-size: 0.18rem;
+    width:1.2rem;
+    height: 0.45rem;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    margin-bottom: 0.1rem;
+}
+.qbyc .top section > span {
+    /*margin-bottom: 0.1rem;*/
+}
+.qbyc .top a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    overflow: hidden;
+}
+
+.qbyc .top section span  {
+    color: #CECDD3;
+    font-size: 0.12rem;
+    width: 100%;
+}
+
+.qbyc .center {
+    width: 100%;
+    height: 0.2rem;
+    background-color: #CECDD3;
+    margin-top: 0.25rem;
+}
+
+.qbyc .bottom .ycList ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.qbyc .bottom .ycList li {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    /*height: 8.6rem;*/
+    border-bottom: 1px solid #CECDD3;
+    /*margin-bottom: 0.1rem;*/
+}
+.qbyc .bottom .ycList li img {
+    width: 1.2rem;
+    height: 1.7rem;
+    margin: 10px 10px;
+}
+.qbyc .bottom .ycList section h3 {
+    font-size: 0.21rem;
+    width: 2.7rem;
+    height: 0.52rem;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+}
+.qbyc .bottom .ycList section p {
+    color: #CECDD3;
+    margin-left: 0.1rem;
+    float: left;
+}
+.qbyc .bottom .ycList section span {
+    color: red;
+    float: right;
+    position: relative;
+    right: 0.3rem;
+    bottom: -0.1rem;
+}
+
+
+
+
+.sing .ycList ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+.sing .ycList li {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #CECDD3;
+    /*margin-bottom: 0.1rem;*/
+}
+.sing .ycList li img {
+    width: 1.5rem;
+    height: 2rem;
+    /*width: 1.2rem;*/
+    /*height: 1.7rem;*/
+    margin: 10px 10px;
+}
+.sing .ycList section {
+    margin-top: 0.3rem;
+}
+.sing .ycList section h3 {
+    font-size: 0.21rem;
+    width: 2.7rem;
+    height: 0.52rem;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+    margin-bottom: 0.2rem;
+}
+.sing .ycList section p {
+    color: #CECDD3;
+    display: flex;
+    justify-content: flex-start;
+    /*float: left;*/
+}
+.sing .ycList section span {
+    font-size: 0.12rem;
+    color: red;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    right: -0.55rem;
+    bottom: 0.22rem;
+}
+
+.kong {
+    /*width: 100%;*/
+    height: 1.5rem;
+    background-color: #F5F5F5;
+}

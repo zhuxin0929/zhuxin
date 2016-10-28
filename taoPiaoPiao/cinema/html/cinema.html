@@ -1,0 +1,54 @@
+<div class="cinema">
+
+    <!-- 头部 -->
+    <div class="topTitle">
+        <p>北京</p>
+        <h3>影院</h3>
+        <section>
+            <img src="cinema/imgs/icon10.jpg"/>
+            <img src="cinema/imgs/icon11.jpg"/>
+        </section>
+    </div>
+
+    <!-- 轮播图 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide"><img src="cinema/imgs/z_luobo2.jpg"/></div>
+            <div class="swiper-slide"><img src="cinema/imgs/z_luobo2.jpg"/></div>
+            <div class="swiper-slide"><img src="cinema/imgs/z_luobo2.jpg"/></div>
+
+
+        </div>
+    </div>
+
+    <!-- 列表 -->
+    <div class="movieList">
+
+        <ul>
+            <li ng-repeat="n in data"><a href="#/jinru">
+                <section class="one">
+                    <h3>{{ n.title }}</h3>
+                    <p><span>{{ n.money }}</span>元起</p>
+                </section>
+
+                <section class="two">
+                    <p>{{ n.address }}</p>
+                    <span>{{ n.juli }}</span>
+                </section>
+
+                <section class="three">
+                    <p>{{ n.ting }}</p>
+                    <span>{{ n.tehui }}</span>
+                </section>
+
+            </a></li>
+        </ul>
+
+    </div>
+
+    <div class="kong">
+        <!-- <p>淘票票专卖</p> -->
+    </div>
+
+</div>

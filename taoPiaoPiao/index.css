@@ -1,0 +1,26 @@
+
+footer {
+   font-size: 0;
+   width: 100%;
+   height: 0.75rem;
+   border-top: 1px solid #ccc;
+   position: fixed;
+   left: 0;
+   bottom: -0.08rem;;
+   background-color: #fff;
+   z-index: 4;
+}
+footer ul {
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+}
+footer li a {
+   font-size: 0.33rem;
+}
+footer li a.active {
+   color: #ff4d64;
+}
+footer li a p {
+   font-size: 0.16rem;
+}

@@ -1,0 +1,99 @@
+<div class="jinru">
+
+    <header>
+        <a href="#/cinema">
+        <section>
+            <img src="./show/imgs/icon17.jpg"/>
+            <p>卢米埃北京芳草地影城</p>
+            <img src="./cinema/imgs/icon5.jpg" id="ww"/>
+        </section></a>
+    </header>
+
+    <div class="main">
+
+        <div class="addr">
+            <div class="left">
+                <h3>卢米埃北京芳草地影城</h3>
+                <p>朝阳区东大桥路9号芳草地大厦LG2-26</p>
+                <span>4K厅</span><span>3D眼镜</span><span>儿童优惠</span><span>可停车</span>
+            </div>
+
+            <div class="right">
+                <img src="./cinema/imgs/icon6.jpg"/>
+            </div>
+        </div>
+
+        <div class="tehui">
+
+            <ul>
+                <li id="p1" >
+                    <p class="p1"><span>特惠</span>《但丁密码》特惠抢票，名额有限抢完即止</p>
+                    <section id="p3"><p ng-click="toggle()">5个活动∨</p></section>
+                    <section id="p4"><p ng-click="toggle()">5个活动∧</p></section>
+                </li>
+                <section >
+                <li id="p2" >
+                    <p><span>特惠</span>《驴得水》特惠，名额有限抢完即止</p>
+                </li>
+                <li id="p2" >
+                    <p><span>特惠</span>《侠探杰克》特惠，名额有限抢完即止</p>
+                </li>
+                <li id="p2" >
+                    <p><span>特惠</span>《机械师2：复活》特惠，名额有限抢完即止</p>
+                </li>
+                <li id="p2" >
+                    <p><span>特惠</span>《惊天破》特惠，名额有限抢完即止</p>
+                </li></section>
+            </ul>
+
+        </div>
+
+        <div class="tupian">
+
+            <img src="../show/imgs/z_luobo.jpg"/>
+
+        </div>
+
+        <div class="title">
+            <p>机械师2：复活</p>
+            <span>29509人想看</span>
+        </div>
+
+        <div class="time">
+
+            <ul>
+                <li>今天10-27 <span>惠</span></li>
+                <li>明天10-28 <span>惠</span></li>
+            </ul>
+            <ul>
+                <li>温馨提示：开场15分钟关闭在线售票</li>
+            </ul>
+
+        </div>
+
+        <div class="dianlist">
+            <ul><li ng-repeat="n in data">
+                <div class="left">
+                    <p>{{n.kaitime}}</p>
+                    <span>{{n.movieStyle}}</span>
+                    <p>特惠<span>{{n.tehui}}</span>元</p>
+                </div>
+                <div class="center">
+                    <p>{{n.santime}}</p>
+                    <span>{{n.style}}</span>
+                    <p>{{n.oldPrice}}</p>
+                </div>
+                <p class="right">购票</p>
+
+            </li></ul>
+
+        </div>
+
+
+
+        <div class="kong"></div>
+
+    </div>
+</div>
+
+<link rel="stylesheet" href="../cinema/css/jinru.css" media="screen" title="no title" charset="utf-8">
